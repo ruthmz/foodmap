@@ -39,6 +39,7 @@ $(document).ready(function() {
   });
   // Cuando selecciona San Isidro
   $('.san-isidro').click(function(event) {
+    $('.suggested').addClass('display');
     $('.image-background1').addClass('isidro-1').html('<p type="button" class="btn btn-primary btn-style" data-toggle="modal" data-target="#miModal" id= "myBtn"></p>');
     $('.btn-style').append(isidro[0]);
     $('.image-background1').removeClass('miraflores-1');
@@ -64,6 +65,7 @@ $(document).ready(function() {
   });
   // Cuando selecciona Surco
   $('.surco').click(function(event) {
+    $('.suggested').addClass('display');
     $('.image-background1').addClass('surco-1').html('<p type="button" class="btn btn-primary btn-style" data-toggle="modal" data-target="#miModal" id= "myBtn"></p>');
     $('.btn-style').append(surco[0]);
     $('.image-background1').removeClass('miraflores-1');
@@ -86,4 +88,9 @@ $(document).ready(function() {
       $('.modal-body').append('<br>' + 'Descripción : ' + '<br>' + place2[2]['Il Monte'][0]['descripción']);
     });  
   });
+  $( ".#myBtn2" ).hover(function() {
+    $( this ).fadeOut( 100 );
+    $( this ).fadeIn( 500 );
+  });
+
 });

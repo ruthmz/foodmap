@@ -1,0 +1,94 @@
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.grad {
+	background: linear-gradient(to left, #cc00ff 0%, #660066 100%);
+}
+
+.container-flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.container-flex-column2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+.food{
+	background-image: url('../assets/img/food.gif');
+	background-size: cover;
+	background-position: center center;
+
+}
+.text-color{
+	color: #F08123;
+}
+.font-style{
+  text-shadow: 2px 2px 8px rgba(150, 150, 150, 1);
+  color: #fff;
+  font-size: 4em;
+}
+.box{
+	width: 80wh;
+}
+.title-font{
+	font-family: 'Russo One', sans-serif;
+}
+.no-padding{
+	padding: .1em !important;
+	margin:0  !important;
+}
+.btn-style ,.btn-style2{
+   transform: translateY(15em)
+}
+/* Modal style */
+.title-style{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.color-back{
+  background-color: linear-gradient(45deg, rgba(255,87,90,1) 0%, rgba(255,87,90,1) 1%, rgba(255,179,181,1) 100%); /* w3c */
+  height: 30vh;
+}
+.miraflores-1{
+	background-image: url("../assets/img/pescados.capitales.jpg");
+	height: 38vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.miraflores-2{
+	background-image: url("../assets/img/parrilla.jpeg");
+	height: 38vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.isidro-1{
+	background-image: url("../assets/img/aromas-peruanos.jpg");
+	height: 38vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.isidro-2{
+	background-image: url("../assets/img/300.jpg");
+	height: 38vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.surco-1{
+	background-image: url("../assets/img/ceviche.jpg");
+	height: 38vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.surco-2{
+	background-image: url("../assets/img/il-monte.jpg");
+	height: 38vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

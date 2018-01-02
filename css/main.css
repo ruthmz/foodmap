@@ -4,7 +4,10 @@ body {
 }
 
 .grad {
-	background: linear-gradient(to left, #cc00ff 0%, #660066 100%);
+	background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+    padding: 2em 0;
+}
+.vh100{
 }
 
 .container-flex-column {
@@ -27,7 +30,8 @@ body {
 
 }
 .text-color{
-	color: #F08123;
+	/* color: #F08123; */
+	color:#fff;
 }
 .font-style{
   text-shadow: 2px 2px 8px rgba(150, 150, 150, 1);
@@ -45,17 +49,22 @@ body {
 	margin:0  !important;
 }
 .btn-style ,.btn-style2{
-   transform: translateY(15em)
+   transform: translateY(15em);
 }
 /* Modal style */
 .title-style{
   font-weight: bold;
   text-transform: uppercase;
 }
-.color-back{
-  background-color: linear-gradient(45deg, rgba(255,87,90,1) 0%, rgba(255,87,90,1) 1%, rgba(255,179,181,1) 100%); /* w3c */
-  height: 30vh;
+.btn-selector{
+	background-color: transparent; 
+	border-color:#fff;
+	color: #fff;
 }
+.center{
+	vertical-align:  middle;
+}
+
 .miraflores-1{
 	background-image: url("../assets/img/pescados.capitales.jpg");
 	height: 38vh;

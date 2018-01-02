@@ -14,6 +14,7 @@ $(document).ready(function() {
   var button = '<p type="button" class="btn btn-primary btn-style" data-toggle="modal" data-target="#miModal">Hola Mundo</p>';
   // Cuando selecciona Miraflores
   $('.miraflores').click(function(event) {
+    $('.suggested').addClass('display');
     $('.image-background1').addClass('miraflores-1').html('<p type="button" class="btn btn-primary btn-style" data-toggle="modal" data-target="#miModal" id= "myBtn"></p>');
     $('.btn-style').append(miraflores[0]);
     $('.image-background1').removeClass('isidro-1');

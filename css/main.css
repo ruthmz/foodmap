@@ -79,6 +79,9 @@ body {
 .display{
 	display: none;
 }
+.opacity{
+  background:rgba(255,255,255,.3);
+}
 .miraflores-1{
 	background-image: url("../assets/img/pescados.capitales.jpg");
 	height: 38vh;

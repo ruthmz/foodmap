@@ -88,9 +88,4 @@ $(document).ready(function() {
       $('.modal-body').append('<br>' + 'Descripción : ' + '<br>' + place2[2]['Il Monte'][0]['descripción']);
     });  
   });
-  $( ".#myBtn2" ).hover(function() {
-    $( this ).fadeOut( 100 );
-    $( this ).fadeIn( 500 );
-  });
-
 });

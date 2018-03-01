@@ -43,14 +43,20 @@ body {
 }
 .title-font{
 	font-family: 'Russo One', sans-serif;
+	font-size: 4em;
+
+}
+.title-font a{
+	text-decoration: none;
+	color:#fff;
 }
 .no-padding{
 	padding: .1em !important;
 	margin:0  !important;
 }
 .btn-style ,.btn-style2{
-   transform: translateY(15em);
-}
+	margin: auto;
+ }
 /* Modal style */
 .title-style{
   font-weight: bold;
@@ -64,17 +70,19 @@ body {
 	border-color:#fff;
 	color: #fff;
 }
-.center{
+/* .center{
 	vertical-align:  middle;
-}
+} */
 .suggested{
 	background-image: url("../assets/img/parrilla.jpeg");
 	height: 38vh;
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 }
 .display{
 	display: none;
@@ -117,4 +125,23 @@ body {
 	height: 38vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.border{
+	border-radius: 2em;
+	border: 4px solid #F08123; 
+	/* padding-bottom: 2em; */
+}
+.place{
+	margin-bottom: 2em;
+}
+.hide{
+	display: none;
+}
+ @media only screen and (min-width: 768px) {
+
 }
